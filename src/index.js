@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import App from './App';
 import "animate.css";
 import "aos/dist/aos.css";
@@ -9,11 +9,10 @@ import "./components/Para"
 
 ReactDOM.render(
 <React.StrictMode>
-  <BrowserRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
-       
       <App />
-  </BrowserRouter>
+  </ HashRouter>,
   </React.StrictMode>,
 
   document.getElementById("root")
