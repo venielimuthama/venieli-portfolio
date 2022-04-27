@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import nairobi from "../image/nairobicity.jpg";
 import AOS from 'aos';
 import Transitions from "./Transitions";
-import venieliImg from "../image/venieli_portfolio_img.png";
+import venieliImg from "../image/venieliBio.png";
 
 
-export default function Home({ Project, Talk, Contact }) {
+export default function Home({ Talk, Contact }) {
 
   const [isShown, setIsShown] = useState(false);
   const [isBg, setIsBg] = useState(false);
@@ -90,7 +90,6 @@ return (
       </div>
 
 
-      {/* <Project /> */}
 
       <Talk Contact={Contact} />
     </div>

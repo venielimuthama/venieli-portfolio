@@ -1,8 +1,8 @@
 import React from "react";
 import pdf from "../image/pdf.png";
 import png from "../image/png.png";
-import resumepng from "../image/Shadrack-Venieli-Resume.png";
-import resumepdf from "../image/Shadrack-Venieli-Resume.pdf";
+import resumepng from "../image/VenieliCV.png";
+import resumepdf from "../image/VenieliCV.pdf";
 import Transitions from "./Transitions";
 
 
