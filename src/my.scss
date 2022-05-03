@@ -50,7 +50,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: yellow;
+  background: blue;
   border-radius: 10px;
 
 }
@@ -963,7 +963,6 @@ img {
 }
 
 .mynavbar {
-
   padding: 10px 0px;
   width: 100%;
   display: flex;
@@ -1441,7 +1440,7 @@ img {
 }
 
 .mynavbar-logo {
-
+  color: blue;
   font-family: 'Festive', cursive;
   font-size: 30px;
   cursor: not-allowed;
