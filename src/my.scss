@@ -1441,8 +1441,8 @@ img {
 }
 
 .mynavbar-logo {
-  
-   font-family: 'Festive', cursive;
+
+  font-family: 'Festive', cursive;
   font-size: 30px;
   cursor: not-allowed;
   padding-top: 2vh;
@@ -1517,41 +1517,6 @@ img {
 
 // 
 //
-
-.cursor {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #fefefe;
-  border-radius: 100%;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  transition: all 150ms ease;
-  transition-property: background-color, opacity, transform, mix-blend-mode;
-  z-index: 90000000000000000000000000;
-  mix-blend-mode: difference;
-}
-
-.cursor--hidden {
-  opacity: 0;
-}
-
-.cursor--link-hovered {
-  transform: translate(-50%, -50%) scale(1);
-  background-color: white;
-
-}
-
-.cursor--clicked {
-  transform: translate(-50%, -50%) scale(2);
-
-
-}
-
-.cursor--all-hovered {
-  transform: translate(-50%, -50%) scale(1.25);
-  background-color: white;
-}
 
 // responsive navbar
 
@@ -1796,4 +1761,51 @@ html {
 .active {
   // background-color: red;
   color: #fff;
+}
+
+
+
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fefefe;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 150ms ease;
+  transition-property: background-color, opacity, transform, mix-blend-mode;
+  z-index: 9000000000000000000000000000000000 ;
+  mix-blend-mode: difference;
+  background-color: white;
+}
+
+.cursor:hover{
+  background-color: #fefefe;
+}
+
+
+.cursor--hidden {
+  opacity: 0;
+}
+
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(1);
+  background-color: white;
+
+}
+
+.cursor--clicked {
+  transform: translate(-50%, -50%) scale(2);
+
+
+}
+
+.cursor--all-hovered {
+  transform: translate(-50%, -50%) scale(1.25);
+  background-color: white;
+}
+
+yellow:hover{
+  background-color: red;
 }
