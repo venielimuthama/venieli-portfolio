@@ -1440,11 +1440,11 @@ img {
 }
 
 .mynavbar-logo {
-  color: blue;
   font-family: 'Festive', cursive;
   font-size: 30px;
   cursor: not-allowed;
   padding-top: 2vh;
+  color: blue;
 }
 
 .mynav-logo {
@@ -1454,7 +1454,6 @@ img {
   cursor: not-allowed;
   text-align: center;
 }
-
 
 .foot-h1s {
   font-size: 1.4em;
@@ -1775,11 +1774,11 @@ html {
   pointer-events: none;
   transition: all 150ms ease;
   transition-property: background-color, opacity, transform, mix-blend-mode;
-  z-index: 9000000000000000000000000000000000 ;
+  z-index: 9000000000000000000000000000000000;
   mix-blend-mode: difference;
 }
 
-.cursor:hover{
+.cursor:hover {
   background-color: #fefefe;
 }
 
@@ -1804,4 +1803,3 @@ html {
   transform: translate(-50%, -50%) scale(1.25);
   background-color: white;
 }
- 
