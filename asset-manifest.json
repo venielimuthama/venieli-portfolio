@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b8de5697.css",
+    "main.js": "/static/js/main.0d86864e.js",
+    "static/media/homemenu2.png": "/static/media/homemenu2.f3a78300d881faad03f2.png",
+    "static/media/menulaptop.png": "/static/media/menulaptop.5b1ccc6a954048068146.png",
+    "static/media/reservation.png": "/static/media/reservation.62aaf26b17cb9fc6fbbc.png",
+    "static/media/homemenu.png": "/static/media/homemenu.a42c1eb75789f03938d9.png",
+    "static/media/contactlaptop.png": "/static/media/contactlaptop.5abba263715296780025.png",
+    "static/media/VenieliCV.png": "/static/media/VenieliCV.dc3b8026f6acd87c6a80.png",
+    "static/media/reservmobile.png": "/static/media/reservmobile.01b1518ed2619517528e.png",
+    "static/media/homemenu2Cmp.png": "/static/media/homemenu2Cmp.86078e281e1e1066a043.png",
+    "static/media/homemenuCmp.png": "/static/media/homemenuCmp.a2eeec4d9949a3d3bd7c.png",
+    "static/media/VenieliCV.pdf": "/static/media/VenieliCV.8fd22f892d8b554e81e4.pdf",
+    "static/media/homemobile1.png": "/static/media/homemobile1.7aa99460d34b8eb058f4.png",
+    "static/media/homemobile2.png": "/static/media/homemobile2.eb85a5a24cb0ed22c7be.png",
+    "static/media/venieliBio.png": "/static/media/venieliBio.178d1ff6d3f69759a536.png",
+    "static/media/menulaptopCmp.jpg": "/static/media/menulaptopCmp.7fbed5923fac497e2976.jpg",
+    "static/media/reservationCmp.jpg": "/static/media/reservationCmp.a3e676eb6270446e42a3.jpg",
+    "static/media/contactmobile.png": "/static/media/contactmobile.1428430eb5def54d387b.png",
+    "static/media/nairobicity.jpg": "/static/media/nairobicity.a3b4d9872ca6d16fe967.jpg",
+    "static/media/contactmobileCmp.png": "/static/media/contactmobileCmp.54a7e6864c39a3402ba6.png",
+    "static/media/contactlaptopCmp.jpg": "/static/media/contactlaptopCmp.1c4dbb92aecbee330b88.jpg",
+    "static/media/reservmobileCmp.jpg": "/static/media/reservmobileCmp.c9dc7925f874f6e1b7ec.jpg",
+    "static/media/menumobile2.png": "/static/media/menumobile2.fcc56a877c510783bd2a.png",
+    "static/media/homemobile1Cmp.png": "/static/media/homemobile1Cmp.d36b9866e21cbb0abbe9.png",
+    "static/media/homemobile2Cmp.png": "/static/media/homemobile2Cmp.f1a345573637c24e3570.png",
+    "static/media/keyboardglass.jpg": "/static/media/keyboardglass.91a84e4475666b78f337.jpg",
+    "static/media/menumobile2Cmp.jpg": "/static/media/menumobile2Cmp.e09914768733e2fc4e46.jpg",
+    "index.html": "/index.html",
+    "main.b8de5697.css.map": "/static/css/main.b8de5697.css.map",
+    "main.0d86864e.js.map": "/static/js/main.0d86864e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8de5697.css",
+    "static/js/main.0d86864e.js"
+  ]
+}
