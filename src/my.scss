@@ -1773,7 +1773,7 @@ html {
   pointer-events: none;
   transition: all 150ms ease;
   transition-property: background-color, opacity, transform, mix-blend-mode;
-  z-index: 90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  z-index: 2147483647;
   mix-blend-mode: difference;
   // background-color: #fefefe;
   background-color: white;
