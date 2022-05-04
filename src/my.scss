@@ -1765,6 +1765,7 @@ html {
 
 
 .cursor {
+  background-color: white;
   width: 40px;
   height: 40px;
   border: 2px solid #fefefe;
@@ -1776,7 +1777,6 @@ html {
   transition-property: background-color, opacity, transform, mix-blend-mode;
   z-index: 9000000000000000000000000000000000 ;
   mix-blend-mode: difference;
-  background-color: white;
 }
 
 .cursor:hover{
@@ -1804,7 +1804,4 @@ html {
   transform: translate(-50%, -50%) scale(1.25);
   background-color: white;
 }
-
-yellow:hover{
-  background-color: red;
-}
+ 
