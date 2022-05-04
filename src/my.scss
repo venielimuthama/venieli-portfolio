@@ -1775,7 +1775,8 @@ html {
   transition-property: background-color, opacity, transform, mix-blend-mode;
   z-index: 9000000000000000000000000000000000;
   mix-blend-mode: difference;
-  background-color: #fefefe;
+  // background-color: #fefefe;
+  background-color: red;
 }
 
 .cursor:hover {
