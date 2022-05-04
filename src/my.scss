@@ -1764,7 +1764,6 @@ html {
 
 
 .cursor {
-  background-color: white;
   width: 40px;
   height: 40px;
   border: 2px solid #fefefe;
@@ -1776,12 +1775,12 @@ html {
   transition-property: background-color, opacity, transform, mix-blend-mode;
   z-index: 9000000000000000000000000000000000;
   mix-blend-mode: difference;
+  background-color: red;
 }
 
 .cursor:hover {
   background-color: #fefefe;
 }
-
 
 .cursor--hidden {
   opacity: 0;
@@ -1790,16 +1789,8 @@ html {
 .cursor--link-hovered {
   transform: translate(-50%, -50%) scale(1);
   background-color: white;
-
 }
 
 .cursor--clicked {
   transform: translate(-50%, -50%) scale(2);
-
-
-}
-
-.cursor--all-hovered {
-  transform: translate(-50%, -50%) scale(1.25);
-  background-color: white;
 }
