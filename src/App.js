@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Info from "./components/Info";
 import Para from "./components/Para";
 import Privacy from "./components/Privacy";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import {
   // BrowserRouter as Router,
   Routes,
@@ -149,7 +149,7 @@ function App() {
             >
               Contact
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="Resume"
               className={`mynav-li mynav-liresume
               ${splitLocation[1] === "Resume" ? "active" : ""}`}
@@ -159,7 +159,7 @@ function App() {
               }}
             >
               Resume
-            </NavLink>
+            </NavLink> */}
           </nav>
         )}
         <button
@@ -216,14 +216,14 @@ function App() {
             }
           />
 
-          <Route
+          {/* <Route
             path="/Resume"
             element={
               <LazyLoad>
                 <Resume />
               </LazyLoad>
             }
-          />
+          /> */}
 
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

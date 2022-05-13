@@ -40,14 +40,14 @@ export default function Footer() {
                 <h1 className="myh2-follow foot-h1s">Follow</h1>
 
                 {/* upwork */}
-                <div className="my-upwork-div">
+                {/* <div className="my-upwork-div">
                   <a href="https://www.upwork.com/freelancers/~01c027f0806334de54" className="myafooter"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Upwork
                   </a>{" "}
-                </div>
+                </div> */}
 
                 {/* linkedin */}
                 <div className="my-linkedin-div">
