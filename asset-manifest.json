@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.46b5717a.css",
-    "main.js": "/static/js/main.ef6b1fbf.js",
+    "main.css": "/static/css/main.beace650.css",
+    "main.js": "/static/js/main.5f891e3f.js",
     "static/media/homemenu2.png": "/static/media/homemenu2.f3a78300d881faad03f2.png",
     "static/media/menulaptop.png": "/static/media/menulaptop.5b1ccc6a954048068146.png",
     "static/media/reservation.png": "/static/media/reservation.62aaf26b17cb9fc6fbbc.png",
     "static/media/homemenu.png": "/static/media/homemenu.a42c1eb75789f03938d9.png",
     "static/media/contactlaptop.png": "/static/media/contactlaptop.5abba263715296780025.png",
-    "static/media/VenieliCV.pdf": "/static/media/VenieliCV.6487d82259c5b46689dd.pdf",
     "static/media/reservmobile.png": "/static/media/reservmobile.01b1518ed2619517528e.png",
     "static/media/homemenu2Cmp.png": "/static/media/homemenu2Cmp.86078e281e1e1066a043.png",
     "static/media/homemenuCmp.png": "/static/media/homemenuCmp.a2eeec4d9949a3d3bd7c.png",
     "static/media/homemobile1.png": "/static/media/homemobile1.7aa99460d34b8eb058f4.png",
     "static/media/homemobile2.png": "/static/media/homemobile2.eb85a5a24cb0ed22c7be.png",
-    "static/media/VenieliCV.png": "/static/media/VenieliCV.9fb6e0b4bc9851ec1988.png",
     "static/media/venieliBio.png": "/static/media/venieliBio.178d1ff6d3f69759a536.png",
     "static/media/menulaptopCmp.jpg": "/static/media/menulaptopCmp.7fbed5923fac497e2976.jpg",
     "static/media/reservationCmp.jpg": "/static/media/reservationCmp.a3e676eb6270446e42a3.jpg",
@@ -28,11 +26,11 @@
     "static/media/keyboardglass.jpg": "/static/media/keyboardglass.91a84e4475666b78f337.jpg",
     "static/media/menumobile2Cmp.jpg": "/static/media/menumobile2Cmp.e09914768733e2fc4e46.jpg",
     "index.html": "/index.html",
-    "main.46b5717a.css.map": "/static/css/main.46b5717a.css.map",
-    "main.ef6b1fbf.js.map": "/static/js/main.ef6b1fbf.js.map"
+    "main.beace650.css.map": "/static/css/main.beace650.css.map",
+    "main.5f891e3f.js.map": "/static/js/main.5f891e3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.46b5717a.css",
-    "static/js/main.ef6b1fbf.js"
+    "static/css/main.beace650.css",
+    "static/js/main.5f891e3f.js"
   ]
 }
