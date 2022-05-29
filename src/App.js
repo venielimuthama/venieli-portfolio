@@ -2,11 +2,12 @@ import React, { useState, useEffect  } from "react";
 import Talk from "./components/Talk";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
-import Work from "./components/Work";
+import Process from "./components/Process";
 import Footer from "./components/Footer";
 import Info from "./components/Info";
 import Para from "./components/Para";
 import Privacy from "./components/Privacy";
+import Catalog from "./components/Catalog";
 // import Resume from "./components/Resume";
 import {
   // BrowserRouter as Router,
@@ -128,15 +129,26 @@ function App() {
             </NavLink>
 
             <NavLink
-              to="Work"
+              to="Process"
               className={`mynav-li mynav-liwork
-              ${splitLocation[1] === "Work" ? "active" : ""}`}
+              ${splitLocation[1] === "Process" ? "active" : ""}`}
               onClick={() => {
                 toggleNav();
                 togglemyLogo();
               }}
             >
-              Work
+              Process
+            </NavLink>
+            <NavLink
+              to="Catalog"
+              className={`mynav-li mynav-liresume
+              ${splitLocation[1] === "Catalog" ? "active" : ""}`}
+              onClick={() => {
+                toggleNav();
+                togglemyLogo();
+              }}
+            >
+              Catalog
             </NavLink>
             <NavLink
               to="Contact"
@@ -149,17 +161,6 @@ function App() {
             >
               Contact
             </NavLink>
-            {/* <NavLink
-              to="Resume"
-              className={`mynav-li mynav-liresume
-              ${splitLocation[1] === "Resume" ? "active" : ""}`}
-              onClick={() => {
-                toggleNav();
-                togglemyLogo();
-              }}
-            >
-              Resume
-            </NavLink> */}
           </nav>
         )}
         <button
@@ -176,13 +177,15 @@ function App() {
       <AnimatePresence exitBeforeEnter>
         {/* <Router> */}
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home Talk={Talk} Contact={Contact} />} />
+          <Route path="/"
+            element={
+              <Home Talk={Talk} Contact={Contact} />} />
 
           <Route
-            path="/work"
+            path="/process"
             element={
               <LazyLoad>
-                <Work />
+                <Process />
               </LazyLoad>
             }
           />
@@ -216,14 +219,14 @@ function App() {
             }
           />
 
-          {/* <Route
-            path="/Resume"
+          <Route
+            path="/catalog"
             element={
               <LazyLoad>
-                <Resume />
+                <Catalog Contact={Contact}/>
               </LazyLoad>
             }
-          /> */}
+          />
 
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

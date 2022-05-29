@@ -140,7 +140,8 @@ Link {
 .mya-name {
   color: yellow;
   width: fit-content;
-  font-size: 1em;
+  font-size: 0.9em;
+  // z-index: 100000;
 }
 
 .mya-name:hover {
@@ -152,31 +153,44 @@ Link {
 }
 
 .my-nrb {
-  font-size: 1em;
+  font-size: 1.4em;
   color: yellow;
-  width: fit-content;
+  // width: fit-content;
+  padding-top: 5px;
+  padding-bottom: -3px;
 
 }
 
 
 .my-award {
-  font-size: 1em;
+  font-size: 0.7em;
+  // width: fit-content;
+  z-index: -100;
+  position: relative;
+
 }
 
+// .cover {
+//   object-fit: cover;
+//   width: 50px;
+//   height: 100px;
+// }
+
 .glitch-divA {
-  min-height: 50vh;
-  width: 45%;
   position: absolute;
   top: 0;
   z-index: -1;
   right: 0;
   bottom: 0;
+  object-fit: cover;
+  object-position: center center;
+  height: 600px;
 }
 
 .glitch-ina {
   width: 100%;
   height: 100%;
-
+  // position: relative;
 }
 
 .glitch-divB {
@@ -191,16 +205,20 @@ Link {
 }
 
 .glitch-inb {
+  // position: relative;
   height: 100%;
   width: 100%;
   background-color: black;
 }
 
-
+.mynrb-spn {
+  color: yellow;
+}
 
 
 
 .myh1-home {
+  // position: relative;
   font-size: 4em;
   width: 70%;
   min-height: 30vh;
@@ -1134,11 +1152,19 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
+  min-height: 100vh;
+  // margin-top: 30vh;
+  // border-radius: 2em 2em 0 0;
+  // border-style: solid;
+  // border-color: black;
+  background-color: rgba(10, 10, 10, 0.788);
+  position: relative;
+  z-index: 1;
 }
 
 .myh2div-creative {
   width: 35%;
-  background: black;
+  // background: black;
   min-height: 40vh;
   color: white;
   font-size: 1em;
@@ -1152,7 +1178,7 @@ img {
 .myh3div-creative {
   font-size: 1em;
   width: 35%;
-  background: black;
+  // background: black;
   min-height: 40vh;
   margin-left: 2%;
   color: white;
@@ -1163,12 +1189,7 @@ img {
   align-items: center;
 }
 
-.my-brief {
-  min-height: 40vh;
-  color: black;
-  width: 4px;
-  background: black;
-}
+
 
 .mytop-info {
   display: flex;
@@ -1176,8 +1197,22 @@ img {
   justify-content: center;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(to bottom,
-      black 45vh, yellow 45vh 100vh);
+  background: yellow;
+}
+
+.mytoptop::after {
+  content: "";
+  position: absolute;
+  background-image: url(./image/nairobicity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 98%;
+  min-height: 96vh;
+  top: 2vh;
+  left: 1%;
+  right: 1%;
+  // z-index: -1;
 }
 
 .mymiddle-info {
@@ -1690,6 +1725,313 @@ html {
   color: yellow;
 }
 
+//catalog
+.mycatalog-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 8% 0 5% 0;
+  background-color: black;
+}
+
+.mycatalog-bg-div {
+  background-color: black;
+  // border: 1px solid white;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0% 0 0% 0;
+}
+
+.mycatalog-bg-div-1 {
+  background-color: black;
+  width: 100%;
+  min-height: 50vh;
+  padding: 2% 5%;
+  display: flex;
+  align-items: center;
+}
+
+.mycat-bg-div-1-h1 {
+  font-size: 1.8em;
+
+}
+
+.mycat-span {
+  color: yellow;
+  // font-size: 1.5em;
+}
+
+.mycatalog-bg-div-2 {
+  background-color: black;
+  // border: 1px solid white;
+  width: 100%;
+  min-height: 2vh;
+  padding: 1% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mycat-bg-div-2-btn {
+  background-color: black;
+  border: 1px solid yellow;
+  color: white;
+  min-height: 2vh;
+  padding: 1% 1%;
+  font-weight: 700;
+}
+
+.mycat-bg-div-2-btn:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  transition: all 2s linear;
+  cursor: pointer;
+}
+
+.mycatalog-sm-div {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  width: 80%;
+  min-height: 100vh;
+  margin: 0 10%;
+  background-color: black;
+  // border: 1px solid white;
+}
+
+.mycat-sm-div-1 {
+  display: flex;
+  // border: 1px solid white;
+  // align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.mycat-sm-div-1a {
+  width: 35%;
+  height: 60vh;
+  background-color: black;
+  // border: 1px solid white;
+  position: relative;
+  margin: 2.5vh 5% 0 5%;
+}
+
+.mycat-sm-div-1b {
+  width: 35%;
+  height: 60vh;
+  background-color: black;
+  // border: 1px solid white;
+  position: relative;
+  margin: 25vh 5% 0 5%;
+}
+
+.mycat-sm-div-2 {
+  display: flex;
+  // border: 1px solid white;
+  // align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.mycat-sm-div-2a {
+  width: 35%;
+  height: 60vh;
+  background-color: black;
+  // border: 1px solid white;
+  margin: 2vh 5% 0vh 5%;
+  position: relative;
+
+}
+
+.mycat-sm-div-2b {
+  width: 35%;
+  height: 60vh;
+  background-color: black;
+  // border: 1px solid white;
+  margin: 25vh 5% 0 5%;
+  position: relative;
+  left: 0;
+}
+
+// .mycat-sm-div-1a:hover {
+//   cursor: pointer;
+//   background-color: white;
+//   transition: all 2.5s ease-in-out;
+// }
+
+// .mycat-sm-div-1b:hover {
+//   cursor: pointer;
+//   background-color: white;
+//   transition: all 2.5s ease-in-out;
+// }
+
+// .mycat-sm-div-2a:hover {
+//   cursor: pointer;
+//   background-color: white;
+//   transition: all 2.5s ease-in-out;
+// }
+
+// .mycat-sm-div-2b:hover {
+//   cursor: pointer;
+//   background-color: white;
+//   transition: all 2.5s ease-in-out;
+// }
+
+.mycat-img {
+  // position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+.mycat-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  // background-color: black;  
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+  opacity: 0;
+}
+
+.mycat-link:hover {
+
+  opacity: 1;
+  cursor: pointer;
+  background-color: white;
+  transition: all 1.5s ease-in-out;
+  // touch-action: auto;
+}
+
+.mycat-mobile-link {
+  border-bottom: 1px solid yellow;
+  width: 100%;
+  min-height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mycat-mobile-h1 {
+  font-size: 1em;
+  color: yellow;
+
+}
+
+// FAQ
+.myFaq {
+  z-index: 1000000000;
+  position: relative;
+  background-color: black;
+}
+
+.myfaq-title {
+  font-size: 2em;
+  color: black;
+  font-weight: 700;
+  // margin: -10vh 0 -1vh 0;
+}
+
+.myfaq-acc-flex {
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  // padding: 8% 0 5% 0;
+  // background-color: black;
+}
+
+.myfaqhead {
+  margin: 2vh 2% 0 0;
+  width: 30%;
+  min-height: 100vh;
+  // padding: 8% 0 5% 0;
+  background-color: black;
+  // border: 1px solid red;
+}
+
+.myfaqhead-quiz {
+  color: yellow;
+}
+
+.myfaq-acc-flex2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  min-height: 100vh;
+  // padding: 8% 0 5% 0;
+  // background-color: black;
+  // border: 1px solid red;
+}
+
+.faq-acc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  min-height: 100vh;
+  // padding: 8% 0 5% 0;
+  background-color: yellow;
+  color: black;
+  margin: 2vh 0;
+}
+
+.faq-acc-item {
+  width: 100%;
+  color: black;
+}
+
+.faq-acc-head {
+  color: black;
+}
+
+.faq-acc-btn {
+  color: black;
+  // border: 1px solid black;
+  // background-color: yellow;
+  padding: 2% 2%;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.faq-acc-btn:not(.collapsed) {
+  color: white;
+  background-color: black;
+}
+
+.faq-acc-body {
+  color: yellow;
+  font-weight: 500;
+  background-color: black;
+}
+
+.mysec-faq {
+  color: white;
+  // font-size: 1.5em;
+
+}
+
+
 
 // resume
 .myResume {
@@ -1761,8 +2103,6 @@ html {
   color: #fff;
 }
 
-
-
 .cursor {
   width: 40px;
   height: 40px;
@@ -1775,7 +2115,6 @@ html {
   transition-property: background-color, opacity, transform, mix-blend-mode;
   z-index: 2147483647;
   mix-blend-mode: difference;
-  // background-color: #fefefe;
   background-color: white;
 }
 

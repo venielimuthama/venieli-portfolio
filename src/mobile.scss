@@ -68,7 +68,7 @@
 
 
     .mynavbar-logo {
-       
+
         color: white;
     }
 
@@ -88,19 +88,14 @@
         z-index: 100000;
     }
 
-    // .mydiv-home::before {
-    //     content: "";
-    //     position: absolute;
-    //     width: 96%;
-    //     min-height: 100vh;
-    //     border: 1px solid red;
-    //     // padding: 0vh 5vh;
-    //     // left: 2%;
-    //     // top: 2vh;
-    //     right: 4%;
-    //     // bottom: 2vh;
-    //     background-color: black;
-    // }
+
+    .my-nrb-div {
+        display: none;
+    }
+
+    .mynrb-from {
+        display: none;
+    }
 
 
 
@@ -184,7 +179,8 @@
     .my-namedivdiv {
         width: 100%;
         min-height: 100%;
-        margin-top: 6vh;
+        margin-top: 3vh;
+        display: none;
     }
 
 
@@ -209,21 +205,24 @@
 
     .mydiv-creative {
         display: block;
+        // width: 100%;
+        // min-height: 80vh;
+        // border: 1px solid red;
+        // margin-top: 20vh;
     }
 
     .myh2div-creative {
         width: 96%;
         min-height: 10vh;
-        margin: 0;
 
-        margin: 0 2% 0 2%;
+        padding: 25vh 2% 0 2%;
     }
 
     .myh3div-creative {
         width: 96%;
         min-height: 10vh;
         margin: 0;
-        margin: 4vh 2% 0 2%;
+        margin: 2vh 2% 0 2%;
     }
 
     .my-brief {
@@ -641,15 +640,26 @@
         background-color: black;
     }
 
+    // .glitch-divA {
+    //     min-height: 60vh;
+    //     width: 99%;
+    //     position: absolute;
+    //     top: 0vh;
+    //     left: 0.5%;
+    //     right: 0.5%;
+    //     bottom: 40vh;
+    //     z-index: 100;
+    // }
+
     .glitch-divA {
-        min-height: 60vh;
-        width: 99%;
         position: absolute;
-        top: 15vh;
-        left: 0.5%;
-        right: 0.5%;
-        bottom: 15vh;
+        top: 0;
         z-index: -1;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+        object-position: center center;
+        height: 400px;
     }
 
     .glitch-ina {
@@ -673,6 +683,90 @@
         width: 100%;
     }
 
+    // catalog
+    .mycatalog-bg-div-1 {
+        background-color: black;
+        // border: 1px solid white;
+        width: 100%;
+        min-height: 50vh;
+        padding: 16% 5% 2% 5%;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .mycat-bg-div-1-h1 {
+        font-size: 1em;
+    }
+
+    .mycat-sm-div-1 {
+        display: block;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .mycat-sm-div-1a {
+        width: 90%;
+        height: 60vh;
+        background-color: black;
+        // border: 1px solid white;
+        position: relative;
+        margin: 2.5vh 0% 0 10%;
+    }
+
+    .mycat-sm-div-1b {
+        width: 90%;
+        height: 60vh;
+        background-color: black;
+        // border: 1px solid white;
+        position: relative;
+        margin: 5vh 10% 0 0%;
+    }
+
+    .mycat-sm-div-2 {
+        display: block;
+        // border: 1px solid white;
+        // align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .mycat-sm-div-2a {
+        width: 90%;
+        height: 60vh;
+        background-color: black;
+        // border: 1px solid white;
+        position: relative;
+        margin: 5vh 0% 0 10%;
+    }
+
+    .mycat-sm-div-2b {
+        width: 90%;
+        height: 60vh;
+        background-color: black;
+        // border: 1px solid white;
+        position: relative;
+        margin: 5vh 10% 5vh 0%;
+    }
+
+
+    .mycat-bg-div-2-btn {
+        background-color: black;
+        border: 1px solid yellow;
+        color: white;
+        min-height: 2vh;
+        padding: 1% 1%;
+        width: 50%;
+        font-weight: 700;
+    }
+
+    .mycat-bg-div-2-btn:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: black;
+        transition: all 1s linear;
+        cursor: pointer;
+    }
 
 
 

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
- import AOS from "aos";
+import AOS from "aos";
 import "bootstrap/dist/css/bootstrap.css";
 import Transitions from "./Transitions";
 
@@ -20,28 +20,13 @@ export default function Info() {
 
       <div className="mytop-info">
         <div className="mytoptop">
-          <div className="my-bioname">
-            <div
-              className="my-namedivdiv"
-            >
-              <div
-                className="my-namedivdivA" >
-                <div className="h1div-bioname"></div>
-                <h1 className="h1-bioname"> SHADRACK</h1>
-              </div>
-
-              <div
-                className="my-namedivdivB" >
-                <h1 className="h2-bioname">VENIELI</h1>
-              </div>
-            </div>
-          </div>
+  
           {/* intro */}
           <div className="mydiv-creative">
-            <div className="my-brief">{/* creativity & development */}</div>
+                
             <div className="myh2div-creative">
               <h1 className="myh2-creative">
-                Is a creative Front-end Developer from Nairobi (Kenya) working
+                I'm a creative Front-end Developer from Nairobi (Kenya) working
                 with brands in helping them build a stable online presence and
                 attract potential investors and clients.
               </h1>
@@ -55,7 +40,6 @@ export default function Info() {
             </div>
           </div>
 
-          <br />
         </div>
       </div>
 

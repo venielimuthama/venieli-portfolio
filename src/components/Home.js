@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
-import nairobi from "../image/nairobicity.jpg";
+// import nairobi from "../image/nairobicity.jpg";
 import AOS from 'aos';
 import Transitions from "./Transitions";
 import venieliImg from "../image/venieliBio.png";
+import FAQ from "./FAQ"
 
 
 export default function Home({ Talk, Contact }) {
 
   const [isShown, setIsShown] = useState(false);
-  const [isBg, setIsBg] = useState(false);
+  // const [isBg, setIsBg] = useState(false);
 
   
    useEffect(() => {
@@ -26,7 +27,11 @@ return (
         <div className="mydiv-home-before">
           <div className="myhome-leftA"></div>
 
-          <div className="mydiv-home">
+          <div
+            className="mydiv-home"
+            onTouchStart={() => setIsShown(true)}
+            onTouchEnd={() => setIsShown(false)}
+          >
             <h1 className="myh1-home">
               <div>
                 <h1
@@ -51,35 +56,12 @@ return (
               </div>
 
               <h1 className="my-award">
-                is an award-winning{" "}
-                <span className="my-award-front">Front-End </span> Developer
-                from
+                is a skilled Front-End/Web Developer from
+                <span className="mynrb-spn"> Nairobi</span>,{" "}
+                <span className="mynrb-spn">Kenya</span>. I craft custom
+                experiences that elevate your brand, share your story, and sell
+                your product.
               </h1>
-
-              <div className="my-nrb-div">
-                <h1
-                  className="my-nrb"
-                  onMouseEnter={() => setIsBg(true)}
-                  onMouseLeave={() => setIsBg(false)}
-                >
-                  Nairobi
-                  <span className="myke"> (</span>
-                  KE
-                  <span className="myke">)</span>
-                </h1>{" "}
-                {isBg && (
-                  <div className="glitch-divB">
-                    <img
-                      data-aos="fade-left"
-                      data-aos-duration="500"
-                      className="glitch-inb"
-                      src={nairobi}
-                      alt="nairobi"
-                      loading="lazy"
-                    />{" "}
-                  </div>
-                )}
-              </div>
             </h1>
 
             <br />
@@ -89,10 +71,35 @@ return (
         </div>
       </div>
 
-
-
       <Talk Contact={Contact} />
+      <FAQ />
     </div>
   </Transitions>
 );
 }
+
+//code to highlight nrb picture on hover
+  // <h1 className="my-nrb-div">
+  //                 <h1
+  //                   className="my-nrb"
+  //                   onMouseEnter={() => setIsBg(true)}
+  //                   onMouseLeave={() => setIsBg(false)}
+  //                 >
+  //                   Nairobi
+  //                   <span className="myke"> (</span>
+  //                   KE
+  //                   <span className="myke">)</span>
+  //                 </h1>
+  //                 {isBg && (
+  //                   <div className="glitch-divB">
+  //                     <img
+  //                       data-aos="fade-left"
+  //                       data-aos-duration="500"
+  //                       className="glitch-inb"
+  //                       src={nairobi}
+  //                       alt="nairobi"
+  //                       loading="lazy"
+  //                     />
+  //                   </div>
+  //                 )}
+  //               </h1>{" "}

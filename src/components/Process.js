@@ -32,7 +32,7 @@ import menumobile2Cmp  from "../image/menumobile2Cmp.jpg";
 
 import $ from "jquery";
 
-export default function Work() {
+export default function Process() {
 
   // mylaazyload
   $(document).ready(function() {
