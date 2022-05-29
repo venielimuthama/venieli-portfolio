@@ -4,7 +4,6 @@ import colorado from "../image/colorado.png";
 import jint from "../image/jint.png";
 import bluepost from "../image/bluepost.png";
 import tala from "../image/tala.png";
-import { Link } from "react-router-dom";
  
 export default function Catalog({Contact}) {
 
