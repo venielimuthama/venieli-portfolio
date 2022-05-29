@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd954516.css",
-    "main.js": "/static/js/main.5f891e3f.js",
+    "main.css": "/static/css/main.47a89a1e.css",
+    "main.js": "/static/js/main.060e4e33.js",
     "static/media/homemenu2.png": "/static/media/homemenu2.f3a78300d881faad03f2.png",
     "static/media/menulaptop.png": "/static/media/menulaptop.5b1ccc6a954048068146.png",
     "static/media/reservation.png": "/static/media/reservation.62aaf26b17cb9fc6fbbc.png",
@@ -24,13 +24,17 @@
     "static/media/homemobile1Cmp.png": "/static/media/homemobile1Cmp.d36b9866e21cbb0abbe9.png",
     "static/media/homemobile2Cmp.png": "/static/media/homemobile2Cmp.f1a345573637c24e3570.png",
     "static/media/keyboardglass.jpg": "/static/media/keyboardglass.91a84e4475666b78f337.jpg",
+    "static/media/colorado.png": "/static/media/colorado.24c40cff55408c213376.png",
     "static/media/menumobile2Cmp.jpg": "/static/media/menumobile2Cmp.e09914768733e2fc4e46.jpg",
+    "static/media/jint.png": "/static/media/jint.5b29d11f00e8dde36dda.png",
+    "static/media/tala.png": "/static/media/tala.fa4528d9eea815984b95.png",
+    "static/media/bluepost.png": "/static/media/bluepost.439b382cd118ebfa3c87.png",
     "index.html": "/index.html",
-    "main.fd954516.css.map": "/static/css/main.fd954516.css.map",
-    "main.5f891e3f.js.map": "/static/js/main.5f891e3f.js.map"
+    "main.47a89a1e.css.map": "/static/css/main.47a89a1e.css.map",
+    "main.060e4e33.js.map": "/static/js/main.060e4e33.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd954516.css",
-    "static/js/main.5f891e3f.js"
+    "static/css/main.47a89a1e.css",
+    "static/js/main.060e4e33.js"
   ]
 }
