@@ -35,6 +35,7 @@ export default function Contact() {
 
           <div className="mycont-bottom">
             <div className="myemail-div">
+              
               <h1 className="myemail">Email</h1>
 
               <Mailto
