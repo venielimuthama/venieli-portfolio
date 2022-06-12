@@ -1,6 +1,6 @@
 import React from 'react';
 import arrowA from '../image/arrowb.png'
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import Transitions from "./Transitions";
 
 
@@ -26,16 +26,18 @@ export default function Contact() {
       <div className="mycont-div">
         <div className="mycont">
          
-          <Typical
+          {/* <Typical
             steps={[" ", 0, "Let's talk.", 1500]}
             loop={Infinity}
             wrapper="h1"
             className="myh1-cont"
-          />
+          /> */}
+
+          <h1 className='myh1-cont'>Let's talk</h1>
 
           <div className="mycont-bottom">
             <div className="myemail-div">
-              
+
               <h1 className="myemail">Email</h1>
 
               <Mailto
