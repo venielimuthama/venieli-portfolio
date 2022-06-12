@@ -1,11 +1,5 @@
 import React from "react";
-import Privacy from './Privacy'
-// import "./Popup.scss";
-// Basic
-// import CookieConsent from "react-cookie-consent";
-
-// Option
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 
 const Popup = () => {
   return (
