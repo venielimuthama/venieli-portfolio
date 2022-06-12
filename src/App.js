@@ -8,7 +8,7 @@ import Info from "./components/Info";
 import Para from "./components/Para";
 import Privacy from "./components/Privacy";
 import Catalog from "./components/Catalog";
-// import Resume from "./components/Resume";
+import Popup from "./components/Popup";
 import {
   // BrowserRouter as Router,
   Routes,
@@ -22,7 +22,6 @@ import "./mobile.scss";
 import "./tablet.scss";
 import { FaBars } from "react-icons/fa";
 import { AnimatePresence  } from "framer-motion";
-import CookieConsent from "react-cookie-consent";
 import LazyLoad from "react-lazyload";
 
 function App() {
@@ -228,48 +227,16 @@ function App() {
             }
           />
 
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={
+            <Navigate to="/" />
+          } />
         </Routes>
         {/* </Router> */}
       </AnimatePresence>
 
       {/* cookie consent */}
-      <CookieConsent
-        style={{
-          background: "black",
-          color: "white",
-          borderTop: "2px solid yellow",
-          zIndex: 10000000000,
-          position: "fixed",
-          bottom: "0px",
-        }}
-        location="bottom"
-        enableDeclineButton
-        declineButtonText="I DECLINE"
-        buttonText="I ACCEPT"
-        cookieName="myAwesomeCookieName2"
-        buttonStyle={{
-          color: "black",
-          fontSize: "13px",
-          fontWeight: "bold",
-          background: "white",
-        }}
-        expires={365}
-        overlayClasses={true}
-        flipButtons
-        Cookies="Cookies"
-        // acceptOnScroll={true}
-        // acceptOnScrollPercentage={50}
-      >
-        This website uses cookies to enhance the user experience. Please read
-        our{" "}
-        <a href="/privacy" style={{ color: "yellow" }}>
-          privacy policy
-        </a>{" "}
-        for more info. By clicking accept, you consent to the use of cookies.
-      </CookieConsent>
-
-      {/* cookie consent */}
+      <Popup/>
+      
 
       <Footer />
 

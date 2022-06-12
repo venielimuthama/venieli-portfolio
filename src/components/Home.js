@@ -56,7 +56,7 @@ return (
               </div>
 
               <h1 className="my-award">
-                is a skilled Front-End/Web Developer from
+                is a skilled Front-End Developer from
                 <span className="mynrb-spn"> Nairobi</span>,{" "}
                 <span className="mynrb-spn">Kenya</span>. I craft custom
                 experiences that elevate your brand, share your story, and sell

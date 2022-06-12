@@ -268,10 +268,7 @@
     //     border: 1px solid red;
     // }
 
-    .mysixthh1div-work {
-        //   width: 10%;
-
-    }
+ 
 
 
     .mysixthh1-work {
@@ -515,33 +512,42 @@
     }
 
     .myfaqhead {
-        margin: 2vh 2% 0 0;
+        // margin: 2vh 5% 0 0;
         width: 100%;
         min-height: 20vh;
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .myfaqhead-quiz::before {
-        content: '';
-        display: block;
-        position: relative;
-        width: 70%;
-        height: 3px;
-        left: 15%;
-        right: 15%;
-        margin-bottom: 2vh;
-        border-top: 4px solid yellow;
+    .faq-br {
+    display: none;
     }
-    .myfaqhead-quiz::after {
-     content: '';
-        display: block;
-        position: relative;
-        width: 60%;
-        height: 3px;
-        left: 20%;
-        right: 20%;
-        margin-top: 2vh;
-        border-bottom: 1px solid yellow;
-    }
+
+    // .myfaqhead-quiz::before {
+    //     content: '';
+    //     display: block;
+    //     position: relative;
+    //     width: 90%;
+    //     height: 3px;
+    //     left: 5%;
+    //     right: 5%;
+    //     margin-bottom: 2vh;
+    //     border-top: 1px solid yellow;
+    // }
+
+    // .myfaqhead-quiz::after {
+    //  content: '';
+    //     display: block;
+    //     position: relative;
+    //     width: 60%;
+    //     height: 3px;
+    //     left: 20%;
+    //     right: 20%;
+    //     margin-top: 2vh;
+    //     border-bottom: 1px solid yellow;
+    // }
 
     .faq-acc {
         display: flex;

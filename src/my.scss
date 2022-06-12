@@ -1968,7 +1968,11 @@ html {
 }
 
 .myfaqhead-quiz {
-  color: yellow;
+  color: white; 
+}
+
+.faq-br{
+  margin-top: 5%;
 }
 
 .myfaq-acc-flex2 {
@@ -2031,72 +2035,43 @@ html {
 
 }
 
+// cookies consent
 
+.CookieConsent {
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.596);
+  border: 1px solid yellow;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate3d(-50%, -50%, 9999990px);
+  width: 95%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 150ms ease;
+}
 
-// resume
-.myResume {
+.overlayclass {
+  z-index: 9000000000099;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// 404
+.myError {
   width: 100%;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.myResume-div {
-  width: 60%;
-  min-height: 100%;
-  margin: 20vh 25% 10vh 25%;
-}
 
-.mypdficon {
-  width: 30px;
-  margin-right: 10px;
-  background-color: black;
-}
-
-.mypngicon {
-  width: 30px;
-  background-color: black;
-
-}
-
-.myh1-cv {
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.mycv-link-div {
-  width: 100%;
-  min-height: 100%;
-  background: yellow;
-}
-
-.mycv-link {
-  width: 100%;
-  min-height: 100vh;
-
-}
-
-.mycv-dwnld {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 2%;
-  min-height: 5vh;
-
-}
-
-.mycv-dwnld-div {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 2%;
-  min-height: 5vh;
-  width: 100%;
-  min-height: 100vh;
-  background: yellow;
-}
-
+ 
 
 .active {
   // background-color: red;
@@ -2113,9 +2088,10 @@ html {
   pointer-events: none;
   transition: all 150ms ease;
   transition-property: background-color, opacity, transform, mix-blend-mode;
-  z-index: 2147483647;
+  z-index: 2147483647888888888;
   mix-blend-mode: difference;
   background-color: white;
+  // overlay
 }
 
 .cursor:hover {
